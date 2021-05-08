@@ -95,7 +95,7 @@ function putFavoritesOnPage() {
   $favoriteStories.show();
 }
 
-$favoriteStories.on("click", putFavoritesOnPage);
+//$favoriteStories.on("click", putFavoritesOnPage);
 
 
 function addMyStoriesOnPage() {
@@ -134,7 +134,6 @@ async function submitNewStory(evt) {
 }
 
 $newStoryForm.on("submit", submitNewStory);
-
 
 
 
